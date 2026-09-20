@@ -1,0 +1,14 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# pyinstaller
+build/
+dist/
+*.spec
+
+# recordings made by the app (keep the folder, not its contents)
+songs/*.mid
+!songs/.gitkeep
